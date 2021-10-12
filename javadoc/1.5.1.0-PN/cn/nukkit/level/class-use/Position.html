@@ -5,7 +5,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-172727144-3"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-172727144-3"); </script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Uses of Class cn.nukkit.level.Position (PowerNukkit 1.5.1.0-PN API)</title>
-<meta name="date" content="2021-07-14">
+<meta name="date" content="2021-10-12">
 <link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
 <script type="text/javascript" src="../../../../script.js"></script>
 </head>
@@ -2104,18 +2104,6 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">Block.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/Block.html#onProjectileHit-cn.nukkit.entity.Entity-cn.nukkit.level.Position-cn.nukkit.math.Vector3-">onProjectileHit</a></span>(<a href="../../../../cn/nukkit/entity/Entity.html" title="class in cn.nukkit.entity">Entity</a>&nbsp;projectile,
-               <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
-               <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
-</tr>
-<tr class="altColor">
-<td class="colFirst"><code>boolean</code></td>
-<td class="colLast"><span class="typeNameLabel">BlockTarget.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTarget.html#onProjectileHit-cn.nukkit.entity.Entity-cn.nukkit.level.Position-cn.nukkit.math.Vector3-">onProjectileHit</a></span>(<a href="../../../../cn/nukkit/entity/Entity.html" title="class in cn.nukkit.entity">Entity</a>&nbsp;projectile,
-               <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
-               <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
-</tr>
-<tr class="rowColor">
-<td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">BlockBell.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockBell.html#onProjectileHit-cn.nukkit.entity.Entity-cn.nukkit.level.Position-cn.nukkit.math.Vector3-">onProjectileHit</a></span>(<a href="../../../../cn/nukkit/entity/Entity.html" title="class in cn.nukkit.entity">Entity</a>&nbsp;projectile,
                <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
                <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
@@ -2123,6 +2111,18 @@
 <tr class="altColor">
 <td class="colFirst"><code>boolean</code></td>
 <td class="colLast"><span class="typeNameLabel">BlockCampfire.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockCampfire.html#onProjectileHit-cn.nukkit.entity.Entity-cn.nukkit.level.Position-cn.nukkit.math.Vector3-">onProjectileHit</a></span>(<a href="../../../../cn/nukkit/entity/Entity.html" title="class in cn.nukkit.entity">Entity</a>&nbsp;projectile,
+               <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
+               <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">Block.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/Block.html#onProjectileHit-cn.nukkit.entity.Entity-cn.nukkit.level.Position-cn.nukkit.math.Vector3-">onProjectileHit</a></span>(<a href="../../../../cn/nukkit/entity/Entity.html" title="class in cn.nukkit.entity">Entity</a>&nbsp;projectile,
+               <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
+               <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>boolean</code></td>
+<td class="colLast"><span class="typeNameLabel">BlockTarget.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/block/BlockTarget.html#onProjectileHit-cn.nukkit.entity.Entity-cn.nukkit.level.Position-cn.nukkit.math.Vector3-">onProjectileHit</a></span>(<a href="../../../../cn/nukkit/entity/Entity.html" title="class in cn.nukkit.entity">Entity</a>&nbsp;projectile,
                <a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a>&nbsp;position,
                <a href="../../../../cn/nukkit/math/Vector3.html" title="class in cn.nukkit.math">Vector3</a>&nbsp;motion)</code>&nbsp;</td>
 </tr>
@@ -3019,11 +3019,11 @@
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a></code></td>
-<td class="colLast"><span class="typeNameLabel">CreatureSpawnEvent.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/entity/CreatureSpawnEvent.html#getPosition--">getPosition</a></span>()</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">EntitySpawnEvent.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/entity/EntitySpawnEvent.html#getPosition--">getPosition</a></span>()</code>&nbsp;</td>
 </tr>
 <tr class="altColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a></code></td>
-<td class="colLast"><span class="typeNameLabel">EntitySpawnEvent.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/entity/EntitySpawnEvent.html#getPosition--">getPosition</a></span>()</code>&nbsp;</td>
+<td class="colLast"><span class="typeNameLabel">CreatureSpawnEvent.</span><code><span class="memberNameLink"><a href="../../../../cn/nukkit/event/entity/CreatureSpawnEvent.html#getPosition--">getPosition</a></span>()</code>&nbsp;</td>
 </tr>
 <tr class="rowColor">
 <td class="colFirst"><code><a href="../../../../cn/nukkit/level/Position.html" title="class in cn.nukkit.level">Position</a></code></td>
